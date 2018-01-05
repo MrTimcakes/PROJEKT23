@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="PROJEKT23Logo" width="674.4" height="1168" viewBox="0 0 178.4 309">
-  <g id="Logo" fill="none" stroke="#000" stroke-width="15.8" stroke-linecap="round">
-    <path id="TopLine" d="M133.3 78.1H45.1"/>
-    <path id="BottomLine" d="M133.3 230.9H45.1"/>
-    <path id="Outline" d="M89.2 1.8l88.2 152.7-88.2 152.8L1 154.5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="PROJEKT23Logo" width="732.3" height="1268.2" viewBox="0 0 193.7 335.5">
+  <g id="Logo" fill="none" stroke="#000" stroke-width="15" stroke-linecap="round">
+    <path id="TopLine" d="M141 91.3H52.8"/>
+    <path id="BottomLine" d="M141 244.1H52.8"/>
+    <path id="Outline" d="M96.9 15L185 167.7 96.9 320.5 8.7 167.7z"/>
   </g>
 </svg>
