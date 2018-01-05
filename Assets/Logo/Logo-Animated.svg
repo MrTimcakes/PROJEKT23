@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="PROJEKT23Logo" width="674.4" height="1168" viewBox="0 0 178.4 309">
+  <style>
+    :root {
+	  --P23-OutlineDuration: 1.0s;
+	  --P23-LineDuration: 0.5s;
+	}
+	#PROJEKT23Logo #TopLine, #PROJEKT23Logo #BottomLine {
+	  stroke-dasharray: 88.3;
+	  stroke-dashoffset: 88.3;
+	  animation: var(--P23-LineDuration) ease-in-out var(--P23-OutlineDuration) both Reveal;
+	}
+	#PROJEKT23Logo #Outline {
+	  stroke-dasharray: 705.54;
+	  stroke-dashoffset: 705.54;
+	  animation: Reveal var(--P23-OutlineDuration) ease-in-out both;
+	}
+
+	@keyframes Reveal {
+	  to {
+		stroke-dashoffset: 0;
+	  }
+	}
+  </style>
+  <g id="Logo" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round">
+    <path id="TopLine" d="M133.3 78.1H45.1"/>
+    <path id="BottomLine" d="M133.3 230.9H45.1"/>
+    <path id="Outline" d="M89.2 1.8l88.2 152.7-88.2 152.8L1 154.5z"/>
+  </g>
+</svg>

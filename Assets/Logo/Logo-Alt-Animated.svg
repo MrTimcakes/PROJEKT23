@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="PROJEKT23Logo" width="674.4" height="1168" viewBox="0 0 178.4 309">
+  <style>
+    :root {
+	  --P23-MoveDuration: 1.0s;
+	  --P23-SlideDuration: 0.5s;
+	}
+	#PROJEKT23Logo #LeftSide, #PROJEKT23Logo #RightSide {
+	  stroke-dasharray: 177;
+	  stroke-dashoffset: 177;
+	  animation: var(--P23-SlideDuration) ease-in-out var(--P23-MoveDuration) both Reveal;
+	}
+	#PROJEKT23Logo #LeftSide {
+	  stroke-dashoffset: -177;
+	}
+	#PROJEKT23Logo #TopTriangle, #PROJEKT23Logo #BottomTriangle {
+	  animation: Move var(--P23-MoveDuration) ease-in-out both;
+	}
+	#PROJEKT23Logo #TopTriangle {
+	  Transform: translate(0pt, 75.6px);
+	}
+	#PROJEKT23Logo #BottomTriangle {
+	  Transform: translate(0pt, -75.6px);
+	}
+
+	@keyframes Move {
+	  to {
+		Transform: translate(0, 0);
+	  }
+	}
+	@keyframes Reveal {
+	  to {
+		stroke-dashoffset: 0;
+	  }
+	}
+  </style>
+  <g id="Logo" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round">
+    <path id="TopTriangle" d="M45 78L89.2 1.8 133.2 78z"/>
+    <path id="LeftSide" d="M45 78L1 154.6 45.1 231"/>
+    <path id="RightSide" d="M133.2 78l44.2 76.5-44.1 76.4"/>
+    <path id="BottomTriangle" d="M45.1 231l88.2-.1-44.1 76.3z"/>
+  </g>
+</svg>

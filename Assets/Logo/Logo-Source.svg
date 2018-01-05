@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="PROJEKT23Logo" width="674.4" height="1168" viewBox="0 0 178.4 309">
+  <g id="Source" fill="#0000fc" fill-opacity=".1" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4" transform="translate(-87.2 -21.9)">
+    <path id="TT" d="M220.5 100h-88.2l44-76.4z"/>
+    <path id="TL" d="M176.4 176.4H88.2l44-76.4z"/>
+    <path id="TM" d="M304.7 178.3h-88.2l44-76.4z" transform="rotate(60 242.2 66.2)"/>
+    <path id="TR" d="M264.6 176.4h-88.2l44-76.4z"/>
+    <path id="BL" d="M-88.2-176.4h-88.2l44.1-76.4z" transform="scale(-1)"/>
+    <path id="BM" d="M304.7 178.3h-88.2l44-76.4z" transform="rotate(-120 240 214.4)"/>
+    <path id="BR" d="M-176.4-176.4h-88.2l44.1-76.4z" transform="scale(-1)"/>
+    <path id="BB" d="M364.2 229H276l44.1-76.4z" transform="rotate(60 183.6 116.4)"/>
+  </g>
+  <g id="Logo" transform="translate(-87.2 -21.9)">
+    <g id="Fill" fill="#0000fc" fill-opacity=".1" stroke-linecap="round" stroke-linejoin="round">
+      <path id="TopTriangle" stroke="#000" stroke-width=".4" d="M220.5 100h-88.2l44-76.4z"/>
+      <path id="HexagonFill" stroke-width="4.3" d="M220.5 252.8h-88.2l-44.1-76.4 44-76.4h88.3l44 76.4z"/>
+      <path id="BottomTriangle" stroke="#000" stroke-width=".4" d="M176.4 329.1l-44.1-76.3h88.2z"/>
+    </g>
+    <path id="TopLine" fill="none" stroke="#000" stroke-width="1.8" d="M220.5 100h-88.2"/>
+    <path id="BottomLine" fill="none" stroke="#000" stroke-width="1.8" d="M220.5 252.8h-88.2"/>
+    <path id="Outline" fill="none" stroke="#000" stroke-width="1.8" d="M176.4 23.6l88.2 152.8L176.4 329 88.2 176.4z"/>
+  </g>
+</svg>
