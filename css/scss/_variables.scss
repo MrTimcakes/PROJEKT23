@@ -12,5 +12,6 @@ $color5: rgba(054, 012, 204, 1); // INTERDIMENSIONAL BLUE
   Variables
 ////////////////////////////////////////////////////////*/
 
-$Navbar-Breakpoint: 48em; // Transition Point From Mobile To Desktop
+$Breakpoint: 48em; // Transition Point From Mobile To Desktop
+$Navbar-Breakpoint: $Breakpoint;
 $navbar-height: 70px;

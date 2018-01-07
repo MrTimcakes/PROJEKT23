@@ -1,0 +1,45 @@
+footer{
+  width: 100%;
+  height: auto;
+  background-color: $color5;
+  color: $color1;
+  .container{
+    padding: 75px;
+    display: flex;
+    .contact-us, .customer-service, .information{
+      padding-right: 3.5vw;
+      h4{
+
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+
+          a{
+            color: $color1;
+            text-decoration: none;
+            &:hover{
+              color: darken($color1, 15%);
+            }
+          }
+        }
+      }
+    }
+    .copyright{
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+  }
+  @media(max-width:$Breakpoint){ // Mobile Styles
+    .container{
+      flex-direction: column;
+      .copyright{
+        margin-top: 75px;
+        justify-content: center;
+      }
+    }
+  }
+}
