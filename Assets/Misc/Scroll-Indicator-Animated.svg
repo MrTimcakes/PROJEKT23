@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Scroll-Indicator" width="512pt" height="512pt" viewBox="0 0 180.6 180.6">
+  <style>
+    #Arrow{
+	  overflow: shown;
+	  animation: float 2s ease-in-out infinite;
+	}
+
+	@keyframes float{
+	  0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0px);
+	  }
+	  40% {
+		transform: translateY(-30px);
+	  }
+	  80% {
+		transform: translateY(-15px);
+	  }
+	}
+  </style>
+  <path id="Arrow" fill="none" stroke="#232b2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M18 94.3l72.3 72.3 72.3-72.3"/>
+</svg>
