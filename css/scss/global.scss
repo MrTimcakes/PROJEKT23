@@ -15,4 +15,15 @@ body{
 
 h1,h2,h3,h4,h5,h6{
   font-weight: 100;
+  margin: 0;
+}
+
+.btn{
+  padding: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  &--dark{
+    color: $color1;
+    background-color: $color5;
+  }
 }
