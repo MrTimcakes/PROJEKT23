@@ -1,0 +1,102 @@
+@import 'variables';
+@import 'mixins';
+
+.display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px 0;
+  .display-image{
+    width: 30vw;
+    height: 75vh;
+    background-image: url("/Assets/Images/Skateboards/Display-Promo.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .display-description{
+    width: 30vw;
+    box-sizing: border-box;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+      color: $color5;
+      font-size: 7.6rem;
+    }
+    p{
+      color: $color5;
+    }
+  }
+  @media(max-width:$Breakpoint){ // Mobile Styles
+    flex-direction: column;
+    padding: 15px;
+    .display-image{
+      width: 80vw;
+    }
+    .display-description{
+      width: 80vw;
+      padding-left: 0;
+      h1{
+        font-size: 5.0rem;
+      }
+    }
+  }
+}
+
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .feature{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 40vw;
+      height: 40vw;
+      margin: 0 5px
+    }
+    .feature-description{
+      width: 42vw; // 2 bigger to offset images from center
+      height: 40vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2{
+        font-size: 5vw;
+      }
+    }
+    &--light{
+      background-color: $color1;
+    }
+    &--dark{
+      background-color: $color3;
+      h2, p{
+        color: $color4;
+      }
+    }
+  }
+  @media(max-width:$Breakpoint){ // Mobile Styles
+    .feature{
+      flex-direction: column;
+      img{
+        width: 80vw;
+        height: 80vw;
+        margin: 10px 0;
+      }
+      .feature-description{
+        width: 80vw;
+        height: 80vw;
+        h2{
+          font-size: 12.5vw;
+        }
+      }
+    }
+  }
+}
