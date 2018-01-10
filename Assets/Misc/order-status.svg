@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="order-status" width="1000pt" height="250pt" viewBox="0 0 352.8 88.2">
+  <g id="layer1" transform="translate(0 -208.8)">
+    <path id="OrderShipping" fill="none" stroke="#eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M35.3 244h141"/>
+    <path id="ShippingPayment" fill="none" stroke="#eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M176.4 244h141.1"/>
+    <g id="Order">
+      <circle id="order-fill" cx="35.3" cy="244.1" r="35.3" fill="#eef" stroke="#232b2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      <circle id="order-cap" cx="35.3" cy="244.1" r="4.4" fill="#360ccc" fill-opacity=".9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/>
+      <text id="text1028" x="7.2" y="294.5" stroke-width=".5" font-family="Roboto" font-size="17.6" font-weight="400" letter-spacing="0" style="line-height:1.25;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" word-spacing="0">
+        <tspan id="tspan1026" x="7.2" y="294.5"><tspan id="tspan1024" x="7.2" y="294.5" fill="#360ccc" fill-opacity=".9">ORDER</tspan></tspan>
+      </text>
+    </g>
+    <g id="Shipping">
+      <circle id="shipping-fill" cx="176.4" cy="244.1" r="35.3" fill="#eef" stroke="#232b2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      <circle id="shipping-cap" cx="176.4" cy="244.1" r="4.4" fill="#360ccc" fill-opacity=".9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/>
+      <text id="text1040" x="140.9" y="293.8" stroke-width=".5" font-family="Roboto" font-size="17.6" font-weight="400" letter-spacing="0" style="line-height:1.25;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" word-spacing="0">
+        <tspan id="tspan1038" x="140.9" y="293.8"><tspan id="tspan1036" x="140.9" y="293.8" fill="#360ccc" fill-opacity=".9" font-size="15.9" style="-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">SHIPPING</tspan></tspan>
+      </text>
+    </g>
+    <g id="Payment">
+      <circle id="path817-6-9" cx="317.5" cy="244.1" r="35.3" fill="#eef" stroke="#232b2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      <circle id="payment-cap" cx="317.5" cy="244.1" r="4.4" fill="#360ccc" fill-opacity=".9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/>
+      <text id="text1034" x="281.2" y="293.8" fill="#360ccc" fill-opacity=".9" stroke-width=".4" font-family="Roboto" font-size="15.9" font-weight="400" letter-spacing="0" style="line-height:1.25;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" word-spacing="0">
+        <tspan id="tspan1032" x="281.2" y="293.8"><tspan id="tspan1030" x="281.2" y="293.8" style="-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">PAYMENT</tspan></tspan>
+      </text>
+    </g>
+  </g>
+</svg>
