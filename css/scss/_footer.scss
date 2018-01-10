@@ -9,7 +9,7 @@ footer{
     .contact-us, .customer-service, .information{
       padding-right: 3.5vw;
       h4{
-
+        color: $color1;
       }
       ul{
         list-style: none;
@@ -31,6 +31,9 @@ footer{
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
+      span{
+        color: $color1;
+      }
     }
   }
   @media(max-width:$Breakpoint){ // Mobile Styles
