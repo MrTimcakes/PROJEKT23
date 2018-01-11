@@ -40,7 +40,7 @@ function displayCart(cart){
   var newItem = document.createElement("td");
   newItem.className = "empty"
   var newPrice = document.createElement("td");
-  var totalCost = document.createTextNode(totalCost);
+  var totalCost = document.createTextNode("£" + totalCost);
   newPrice.appendChild(totalCost);
 
   newRow.appendChild(newItem);
