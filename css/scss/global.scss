@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,h6{
   border-radius: 5px;
   text-decoration: none;
   color: $color1;
+  cursor: pointer;
   &--dark{
     color: $color1;
     background-color: $color5;
