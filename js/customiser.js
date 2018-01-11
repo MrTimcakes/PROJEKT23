@@ -1,4 +1,4 @@
-var CurrentSKU = {Name: "VisiBoard", Deck: "sticker", Wheels: 0xFFFFFF, Price: 149.99}
+var CurrentSKU = {Name: "VisiBoard", Deck: "sticker", Wheels: "Blue", Price: 149.99}
 
 var camera, controls, scene, renderer;
 var skateboard;
@@ -116,7 +116,7 @@ function updateBoard(){
   skateboard.getObjectByName("Underside").material = material;
 
   for(i=1; i<5; i++){
-    skateboard.getObjectByName("Wheel"+i).material.color.setHex( CurrentSKU.Wheels );
+    skateboard.getObjectByName("Wheel"+i).material.color.setHex( document.querySelectorAll('[data-color-name~="' + CurrentSKU.Wheels + '"]')[0].dataset.color );
   }
 
   localStorage.setItem("VisiBoardLastEdit", JSON.stringify(CurrentSKU))
@@ -135,7 +135,7 @@ function decalSwatchOnClick(){
 }
 
 function colorSwatchOnClick(){
-  CurrentSKU.Wheels = this.dataset.color;
+  CurrentSKU.Wheels = this.dataset.colorName;
   updateBoard();
 }
 
@@ -187,6 +187,7 @@ function createSwatches(){
     newSwatch.appendChild(newName);
 
     newSwatch.dataset.color = Wheels[color];
+    newSwatch.dataset.colorName = color;
     newSwatch.addEventListener("click", colorSwatchOnClick);
     document.querySelector("#color-swatches").appendChild(newSwatch);
   }
