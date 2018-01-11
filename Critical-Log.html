@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PROJEKT23 - CRITICAL LOG</title>
+
+
+  <link rel="stylesheet" href="/css/global.min.css">
+  <link rel="stylesheet" href="/css/Critical-Log.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <span id="logo">
+      <a href="/"><img src="/Assets/Logo/Logo-Static-Thick.svg" alt="Logo"></a>
+    </span>
+    <input type="checkbox" id="NavbarExpand">
+    <label for="NavbarExpand" onclick>Projekt23</label>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/Our-Board">Our Board</a></li>
+      <li><a href="/The-Team">The Team</a></li>
+      <li><a href="/Customiser">Customiser</a></li>
+      <li class="mobile-only"><a href="/Cart">Cart</a></li>
+    </ul>
+    <span id="cart">
+      <a href="/Cart"><svg width="50" height="50" viewBox="0 0 24 24"><path d="M17 18a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.6L5.2 14a2 2 0 0 0-.2 1 2 2 0 0 0 2 2h12v-2H7.4a.3.3 0 0 1-.2-.3l.9-1.7h7.5a2 2 0 0 0 1.7-1l3.6-6.5.1-.5a1 1 0 0 0-1-1H5.2l-1-2M7 18a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z"/></svg></a>
+    </span>
+  </nav>
+
+  <!-- Page - Content -->
+  <main>
+
+    <h1>Critical Log</h1>
+    <h2>Website: <a href="http://PROJEKT23.MrTimcakes.com/">http://PROJEKT23.MrTimcakes.com/</a></h2>
+    <h2>GitHub: <a href="https://github.com/MrTimcakes/PROJEKT23">https://github.com/MrTimcakes/PROJEKT23</a></h2>
+    <p>During the development of the &ldquo;PROJEKT23&rdquo; website, specifics of the HTML5 and CSS3 standards was analysed to gain an understanding for the best practices for these new standards. HTML5 brings some new tags to better structured pages. For example, instead of pages being never-ending nests of &ldquo;&lt;div&gt;&rdquo; elements, there are now &ldquo;&lt;section&gt;&rdquo; and &ldquo;&lt;article&gt;&rdquo; tags which make it every easy to separate the different portions of the page up into distinct section tags. This is in-action on almost every page of the PROJEKT23 website. HTML5 also bring &ldquo;&lt;nav&gt;&rdquo; and &ldquo;&lt;footer&gt;&rdquo; tags which helps differentiate a regular div from the pages navigation tools.</p>
+    <p>CSS3 brings one of my personal favourite features to the table. Flexbox. If you&rsquo;ve got a problem styling the web, a flexbox can probably fix it. It&rsquo;s such a versatile new syntax, simply display a parent object as a flexbox and you can then both vertically and horizontally centre its children, in CSS2 is this was no easy feat, not impossible, but definitely not 3 lines like CSS3 with the power of flexbox. But flexbox&rsquo;s capabilities far extend centring things, flexbox lets you positions elements pretty much however you want, want your items to fill a space but have an equal gap between them? Flexbox can do that. Need a list that displays horizontally when there&rsquo;s enough space? Yep, Flexbox.</p>
+    <p>Media queries are a huge part of the modern web, media queries are revolutionary feature of CSS3, they allow different styles to be set deepening on a characteristic like browser viewport size. This enables web-developers to enable a single webpage to be tailor designed to fit a multitude of different screen sizes. This is vitally important as the majority of web traffic in todays era is mobile sites. CSS3 really brought web back into the limelight and shows it’s a really serious platform.</p>
+    <p>It&rsquo;s not only HTML and CSS that have had some major overhauls. JavaScript has been evolving along with them. The latest standard of JavaScript ES8 or ES2017 has a huge range of functionality over previous &ldquo;last-gen&rdquo; standards. The language has had features and browser APIs added, but It&rsquo;s even had Syntax changes to the actual language. JavaScript can now support classes like a real Object-Oriented Language, its now got promises and even asynchronous functions. The world really is your Oyster with these new standards. For the PROJEKT23 site I took advantage of a few of these new features, notably the Canvas/WebGL and LocalStorage APIs. First LocalStorage, it&rsquo;s similar, ish, with the good old generic cookie, though it is far more versatile and safe. LocalStorage is an API for developers to use to store, actually a quite large amount of data on the client&rsquo;s computer, safe from anyone else&rsquo;s prying eyes. LocalStorage content is locked down to the site that created it, its not accessible any other way. In my project I used LocalStorage to store the Cart information of the users shopping and the latest state of their customisation so when they return the can pick right up where they left off. Now for the Canvas/WebGL, this tool allows JavaScript to do some impressive visual stuff, especially the WebGL, that is really performance efficient. These are two APIs that give your JavaScript direct access to a, well, &ldquo;canvas&rdquo;. Your scripts can write on that canvas however they please. In my case I used a library &ldquo;ThreeJS&rdquo; to load a real 3D model, the same type that would be used in desktop software like blender or 3DSMax (.obj) and display it to the user. This is all processed at above 60 frames per seconds and so makes a very fluid user experience. In the PROJEKT23 customiser the user can change the decal on the under side of the board and change the colour of the wheels to their personal preference. However, this isn&rsquo;t all great, because the WebGL API has the potential to be so powerful, it just cannot be user friendly and is a very difficult API to use, that is why I chose to use the ThreeJS library, to make it manageable.</p>
+    <p>For my Navbar I used a CSS “Hack” which involves using a label to toggle a hidden checkbox and then using styles with CSS’s “~” sector which matches item after it in the DOM. This allowed me to make a super-efficient navbar which is pure CSS, no JavaScript required. I also used a Pre-Processor, SCSS which compiles into regular CSS, this was just to make my life easier with nesting in CSS.</p>
+
+    <h2>W3C Validation</h2>
+    <p>The W3C (World Wide Web Consortium) validator is a HTML mark-up checker, it goes through and  makes sure tags are closed, images have alternate text and also checks for some best-practise semantics. I tested the PROJEKT23 website against the validator at https://validator.w3.org/nu/. Every page passed, however there was one or two warnings that sections weren’t followed by a header, this is because I used the section tag to enforce structure in the mark-up and not-necessarily for what a user would see. Here are the test results:</p>
+
+    <h2>Organisation</h2>
+    <p>I believe that I used a very sensible file structure for the organisation of the project, the HTML files were in the root directory, the CSS was under a CSS directory, JavaScript too and then Assets were also organised into their respective folders. In the end My structure looked like this : </p>
+
+  </main>
+
+    <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="contact-us">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="tel:+44345678903">+44 345 678 903</a></li>
+          <li><a href="mailto:PROJEKT23@gmail.com">PROJEKT23@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="customer-service">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Ordering & Payment</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="information">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="/Demo">Demo</a></li>
+          <li><a href="/Critical-Log">Critical Log</a></li>
+          <li><a href="#">Press Kit</a></li>
+          <li><a href="#">Branding</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <span>&copy;PROJEKT23</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
